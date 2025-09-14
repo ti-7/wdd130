@@ -4,14 +4,26 @@ nav {
     padding: 1rem;
     text-align: center;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
+    padding: 0.5rem;
+    display: block;
     margin: 0 1rem;
 }
 h1 {
 color: #333;
 }
+
+img {
+width: 200px;
+height: auto;
+border: 2px solid #333;
+padding: 5px;
+box-shadow: 2px 2px 6px #999;
+}
+
 main {
     max-width: 840px;
 }
@@ -30,10 +42,12 @@ aside img {
     width: 200px;
     height: auto;
 }
+
  main img {
     max-width: 150px;
     height: auto;
  }
+ 
 p {
 padding: 0;
 }
