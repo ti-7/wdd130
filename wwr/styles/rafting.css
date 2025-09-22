@@ -1,0 +1,98 @@
+:root{
+  --primary-color: #055a05;
+  --secondary-color: #f4a261;
+  --accent1-color: #264653; 
+  --accent2-color: #e9c46a; 
+  --heading-font: "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: #fff;
+  color: var(--accent1-color);
+}
+
+header, main, footer {
+width: 840px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav, p, section, article {
+margin: 16px;
+padding: 8px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent1-color);
+}
+
+.socialmedia a {
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.hero {
+position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero h1 {
+  position: absolute;
+    top: 20px;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.8;
+  background-color: var(--accent1-color);
+color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.hero article img {
+float: right;
+width: 125px;
+margin-left: 12px;
+}
+
+header img {
+  height: 60px;   /* adjust size as needed */
+  width: auto;
+  vertical-align: middle;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
