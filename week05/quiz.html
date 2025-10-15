@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <h1>HTML & CSS Quiz</h1>
+    <!--
+Answer Sheet:
+Q1: HyperText Markup Language
+Q2: CSS styles and formats web pages
+Q3: <link>
+Q4: 6
+-->
+
+    <form>
+        <label for="q1">1. What does HTML stand for?</label>
+        <input type="text" id="q1" name="q1" placeholder="Type your answer here">
+
+        <label for="q2">2. Explain the purpose of CSS in web development:</label>
+        <textarea id="q2" name="q2" rows="4" placeholder="Write a short answer..."></textarea>
+
+        <label for="q3">3. Which HTML element is used to link an external CSS file?</label>
+        <select id="q3" name="q3">
+            <option value="" selected disabled>Choose one...</option>
+            <option value="link">&lt;link&gt;</option>
+            <option value="style">&lt;style&gt;</option>
+            <option value="css">&lt;css&gt;</option>
+        </select>
+
+        <label for="q4">4. How many heading levels are there in HTML?</label>
+        <input type="number" id="q4" name="q4" min="1" max="6">
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+
+</html>
