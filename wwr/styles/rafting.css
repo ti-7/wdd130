@@ -133,10 +133,7 @@ footer {
   border-top: 1px solid #ccc;
 }
 
-footer .social {
-  display: flex;
-  gap: 1rem;
-}
+
 
 footer img {
   width: 24px;
@@ -420,6 +417,8 @@ footer {
 footer .social {
     display: flex;
     gap: 1rem;
+    justify-content: flex-end; 
+    align-items: center;
 }
 
 footer img {
@@ -427,10 +426,10 @@ footer img {
     height: 24px;
 }
 
-footer .social a:hover img {
-    opacity: 0.7;
-    transform: scale(1.1);
-    transition: all 0.2s ease-in-out;
+
+footer .social img {
+    width: 24px;
+    height: 24px; 
 }
 
 header {
