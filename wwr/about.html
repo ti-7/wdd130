@@ -7,7 +7,8 @@
     <meta name="description" content="Learn more about WWR, our mission, values, and the team behind our success.">
     <meta name="author" content="Tiago Numbers">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>About Us - White Water Rafting</title>
+    <title>White Water Rafting | Contact Us</title>
+
 </head>
 
 <body>
@@ -24,51 +25,66 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/hero.jpg" alt="Rafting team paddling through rapids">
-            <h1>White Water Rafting</h1>
-            <article>
-                <img src="images/happy.jpg" alt="happy people rafting together and having fun">
-                <p>At White Water Rafting, our mission is to provide unforgettable outdoor experiences building
-                    confidence
-                    and teamwork.</p>
-            </article>
-        </div>
+        <h1>Contact Us</h1>
 
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-layout">
-                <p>Founded in 2025, White Water Rafting has been dedicated to offering thrilling white water rafting
-                    adventures in some of the most beautiful locations around the world. Our team of experienced guides
-                    ensures that every trip is safe, exciting, and memorable.</p>
-                <img src="images/raftinghelmets.jpg" alt="white water rafting adventure">
+        <section class="company-info">
+            <h2>Our Office</h2>
+            <p>White Water Rafting Adventures</p>
+            <p>123 Rapids Way, Salmon River, ID 83467</p>
+            <p>Phone: (208) 555-1234</p>
+            <p>Email: info@wwrrafting.com</p>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44361.52910302772!2d-113.9019275!3d45.4102945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535e51b20b0c7c7f%3A0x6cc6e25f4e6c8a6a!2sSalmon%20River%2C%20Idaho!5e0!3m2!1sen!2sus!4v1731190000000!5m2!1sen!2sus"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </section>
 
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="employees">
                 <figure>
-                    <img src="images/rafting1.jpg" alt="navigating through rapids">
-                    <figcaption>Experience the thrill of navigating through rapids!</figcaption>
+                    <img src="images/guide1.jpg" alt="River Guide Sam Carter">
+                    <figcaption>Sam Carter – Lead River Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting2.jpg" alt="adrenaline-pumping white water rafting">
-                    <figcaption>Enjoy breathtaking views and adrenaline-pumping action!</figcaption>
+                    <img src="images/manager.jpg" alt="Operations Manager Lisa Trent">
+                    <figcaption>Lisa Trent – Operations Manager</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting3.jpg" alt="team-building white water rafting">
-                    <figcaption>Perfect for families, friends, and team-building events!</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting4.jpg" alt="journey on the water">
-                    <figcaption>Join us for an unforgettable journey on the water!</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting5.jpg" alt="Discover white water rafting adventure">
-                    <figcaption>Discover the excitement of white water rafting with us!</figcaption>
+                    <img src="images/safety.jpg" alt="Safety Officer Mike Lopez">
+                    <figcaption>Mike Lopez – Safety Officer</figcaption>
                 </figure>
             </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <label>
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
 
