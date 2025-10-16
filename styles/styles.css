@@ -52,8 +52,8 @@ width: 20rem;
 margin: 1rem;
 border: 1px solid rgba(0, 0, 0, 0.2);
 padding: 1rem;
-background-color: #eee;
-color: #333;
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
 text-align: center;
 }
 
@@ -87,11 +87,44 @@ border-top: 1px solid #000;
 text-align: center;
 }
 
-/* Class Selectors */
+
 .box {
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     margin: 1rem;
     background-color: #eee;
     color: #000;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
+
+body {
+    background-image: url('../images/spacestar.jpg'); /* put your Star Wars image in images/ */
+    background-size: cover;           /* makes it cover the entire viewport */
+    background-repeat: no-repeat;     /* prevents tiling */
+    background-attachment: fixed;     /* keeps it fixed while scrolling */
+    background-position: center;      /* centers the image */
+    color: white;                     /* makes text readable over dark background */
+    font-family: Arial, sans-serif;   /* optional, keeps text clean */
+}
+
+aside, main {
+    background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+body, body * {
+    color: white !important;
 }
