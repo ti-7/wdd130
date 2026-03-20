@@ -1,50 +1,50 @@
 nav {
-    background-color: steelblue;
-    padding: 10px;
+  background-color: steelblue;
+  padding: 10px;
 }
 
 nav a {
-    color: white;
-    display: block;
-    padding: 20px;
+  color: white;
+  display: block;
+  padding: 20px;
 }
 
 h1 {
-    color: steelblue;
+  color: steelblue;
 }
 
 main {
-    max-width: 840;
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px;
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
+  max-width: 840px;
 }
 
 main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px grey;
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
 }
 
 p {
-    padding: 0;
+  padding: 0;
 }
 
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
