@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: steelblue;
   padding: 10px;
@@ -23,6 +29,7 @@ main img {
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 aside {
@@ -32,6 +39,15 @@ aside {
   padding: 1rem;
   background-color: #eee;
   color: #333;
+  position: relative;
+  width: 20em;
+  text-align: center;
+}
+
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 
 aside img {
@@ -41,6 +57,14 @@ aside img {
 
 p {
   padding: 0;
+}
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
 
 footer {
