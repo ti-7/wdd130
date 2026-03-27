@@ -101,6 +101,11 @@ nav a {
   text-decoration: none;
 }
 
+.socialmedia img {
+  width: 32px;
+  height: 32px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
